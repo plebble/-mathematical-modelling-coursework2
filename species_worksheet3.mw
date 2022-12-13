@@ -186,7 +186,7 @@ plot_list := [];</Text-field>
 </Group>
 <Group hide-input="false" labelreference="L12" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">do
-print(&quot;hi&quot;);
+print(&quot;beginning new splice&quot;);
 current_solution := dsolve({prey_sys,init_conds},numeric);
 solution_list := [op(solution_list),copy(current_solution,deep)];
 
